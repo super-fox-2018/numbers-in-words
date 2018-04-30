@@ -1,5 +1,7 @@
 function numberToWords(number) {
   const numbers = ["", 'satu', 'dua', 'tiga', 'empat', 'lima', 'enam', 'tujuh', 'delapan', 'sembilan', 'sepuluh', 'sebelas'];
+  
+  if (number >= 1000000000000000) return 'Input number is too big';
 
   if (number >= 1000000000000) {
     return `${numberToWords(Math.floor(number/1000000000000))} triliun ${numberToWords(number%1000000000000)}`;
