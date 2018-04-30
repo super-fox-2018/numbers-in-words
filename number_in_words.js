@@ -1,6 +1,5 @@
 function numberToWords(number) {
   var arrSingle = ["satu","dua","tiga","empat","lima", "enam", "tujuh", "delapan", "sembilan", "sepuluh", "sebelas"];
-  var temp = "";
 
   if( number === 0 ){
     return "";
@@ -15,7 +14,6 @@ function numberToWords(number) {
       }
       case number < 100: {
         return (numberToWords(Math.floor(number / 10)) + "puluh " + numberToWords(Math.floor(number % 10)));
-
       }
       case number === 100: {
         return ("seratus ");
@@ -49,8 +47,6 @@ function numberToWords(number) {
       }
     }
   }
-
-//return temp;
 }
 
 // Driver code
