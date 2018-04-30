@@ -7,6 +7,7 @@ function numberToWords(number) {
     'sembilan' : 9,
     'delapan' : 8,
     'tujuh' : 7,
+    'enam' : 6,
     'lima'  : 5,
     'empat' : 4,
     'tiga'  : 3,
