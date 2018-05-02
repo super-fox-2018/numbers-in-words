@@ -33,7 +33,6 @@ function numberToWords(number) {
   else if (number < 1000000000000) {
     output += numberToWords(Math.floor(number / 1000000000)) + 'milyar ' + numberToWords(number % 1000000000);
   }
-
   return output;
 }
 
