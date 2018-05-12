@@ -75,5 +75,5 @@ function numberToWords(number) {
 	}
 
 }
-
-console.log(numberToWords(15500650))
+console.log(numberToWords(999000000000000))
+console.log(numberToWords(998925000000000))
